@@ -8,7 +8,7 @@
 
 <h2>Formulário Concessionaria</h2>
 
-<form action="processa_alocacao.php" method="POST">
+<form action="automoveis.php" method="POST">
     <label>Nome Concessionaria:</label>
     <input type="text" name="concessionaria" required><br><br>
 

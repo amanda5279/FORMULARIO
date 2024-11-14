@@ -8,7 +8,7 @@
 
 <h2>Formulário de Clientes</h2>
 
-<form action="processa_alocacao.php" method="POST">
+<form action="concessionarias.php" method="POST">
     <label>Nome:</label>
     <input type="text" name="nome" required><br><br>
 
