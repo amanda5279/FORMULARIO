@@ -1,12 +1,12 @@
 <?php
-    $nome=$_POST['nome'];
-    $concessionaria=$_POST['concessionaria'] ;
-    $modelo=$_POST['modelo'];
-    $preco=$POST['preco'];
-    $area=$_POST['area'] ;
-    $automovel=$_POST['automovel'];
-    $concessionariaa=$_POST['concessionariaa'];
-    $quantidade=$_POST['quantidade'];
+    $nome = $_POST['nome'];
+    $concessionaria = $_POST['concessionaria'] ;
+    $modelo = $_POST['modelo'];
+    $preco = $POST['preco'];
+    $area = $_POST['area'] ;
+    $automovel = $_POST['automovel'];
+    $concessionariaa = $_POST['concessionariaa'];
+    $quantidade = $_POST['quantidade'];
 
     // Conectar ao banco de dados
     $strconexao = mysqli_connect('localhost', 'root', '', 'veiculo');
@@ -19,7 +19,7 @@
     // Verifica a década do veículo e constrói a consulta SQL
 
     // Constrói a consulta SQL
-    $sql = "INSERT INTO $table_name (nome, concessionaria, modelo, preco, area, automovel, concessionariaa, quantidade) 
+    $sql = "INSERT INTO $alocacao, $automoveis, $clientes, $concessionarias  (nome, concessionaria, modelo, preco, area, automovel, concessionariaa, quantidade) 
             VALUES ('$nome', '$concessionaria', '$modelo', '$preco', '$area', '$automovel', '$concessionariaa', '$quantidade')";
 
     // Executa a consulta SQL
