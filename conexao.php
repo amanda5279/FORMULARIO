@@ -9,7 +9,7 @@
     $quantidade=$_POST['quantidade'];
 
     // Conectar ao banco de dados
-    $strconexao = mysqli_connect('localhost', 'root', '', 'veiculos');
+    $strconexao = mysqli_connect('localhost', 'root', '', 'veiculo');
 
     // Verifica se a conexão foi estabelecida corretamente
     if (!$strconexao) {
