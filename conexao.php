@@ -19,7 +19,7 @@
     // Verifica a década do veículo e constrói a consulta SQL
 
     // Constrói a consulta SQL
-    $sql = "INSERT INTO $alocacao, $automoveis, $clientes, $concessionarias  (nome, concessionaria, modelo, preco, area, automovel, concessionariaa, quantidade) 
+    $sql = "INSERT INTO  (nome, concessionaria, modelo, preco, area, automovel, concessionariaa, quantidade) 
             VALUES ('$nome', '$concessionaria', '$modelo', '$preco', '$area', '$automovel', '$concessionariaa', '$quantidade')";
 
     // Executa a consulta SQL
